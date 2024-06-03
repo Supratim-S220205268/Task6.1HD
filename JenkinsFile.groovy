@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     echo 'Building...'
-                    sh 'mvn clean package'
+                    sh 'mvn --version'
                 }
             }
             post {
